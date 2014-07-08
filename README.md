@@ -1,7 +1,7 @@
 P2PU Navigation Widget
 ======================
 
-Use this to create uniform navigation bar at the top of any P2PU web property. 
+We use this to create a uniform navigation bar at the top of any P2PU web property. 
 
 To make changes, edit the menu.html file (be careful, changes could affect many different sites). 
 
