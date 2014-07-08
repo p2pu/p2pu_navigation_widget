@@ -11,3 +11,5 @@ List of sites that currently use this:
 * http://info.p2pu.org
 * http://badges.p2pu.org
 * ???
+
+For an example of how to use this on a site, see example.html
