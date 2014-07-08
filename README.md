@@ -1,8 +1,6 @@
 P2PU Navigation Widget
 ======================
 
-(This is the remote track branch - Test)
-
 We use this to create a uniform navigation bar at the top of any P2PU web property. 
 
 To make changes, edit the menu.html file (be careful, changes could affect many different sites). 
