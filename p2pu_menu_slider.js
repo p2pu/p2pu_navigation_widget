@@ -2,6 +2,7 @@
     var template = '<div class="p2pu-panel-wrap" style="display: none">' +
         '<div class="panel-contents clearfix">' +
         '<div class="connect">' +
+        '&nbsp;' +
         '</div>' +
         '<div class="connect">' +
         '<div class="connect-inner">' +
