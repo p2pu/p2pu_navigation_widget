@@ -47,20 +47,19 @@
         '<a href="http://community.p2pu.org">Community Forum</a></li>' +
         '<li>' +
         '<hr>' +
-        '<a href="http://www.facebook.com/P2PUniversity" target="_blank"><i' +
-        'class="icon-facebook-sign"></i></a>' +
+        '<a href="http://www.facebook.com/P2PUniversity" target="_blank"><i class="icon-facebook-sign"></i></a>' +
         '<a href="http://twitter.com/p2pu" target="_blank"><i class="icon-twitter-sign"></i></a>' +
-      '<a href="http://info.p2pu.org/contact/" target="_blank"><i class="icon-envelope"></i></a>' +
-      '</li>' +
-      '</ul>' +
-      '</div>' +
-      '</div>' +
-      '</div>' +
-      '</div>' +
-      '<div class="p2pu-color-divider-wrap">' +
-      '<div class="p2pu-color-divider"></div>' +
-      '</div>' +
-      '</div>';
+        '<a href="http://info.p2pu.org/contact/" target="_blank"><i class="icon-envelope"></i></a>' +
+        '</li>' +
+        '</ul>' +
+        '</div>' +
+        '</div>' +
+        '</div>' +
+        '</div>' +
+        '<div class="p2pu-color-divider-wrap">' +
+        '<div class="p2pu-color-divider"></div>' +
+        '</div>' +
+        '</div>';
 
     var Slider = function(element, options) {
         this.element =
