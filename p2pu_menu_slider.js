@@ -2,7 +2,6 @@
     var template = '<div class="p2pu-panel-wrap" style="display: none">' +
         '<div class="panel-contents clearfix">' +
         '<div class="connect">' +
-        '&nbsp;'+
         '</div>' +
         '<div class="connect">' +
         '<div class="connect-inner">' +
@@ -10,13 +9,13 @@
         '<ul class="unstyled list-unstyled">' +
         '<li>' +
         '<hr>' +
+        '<a href="http://info.p2pu.org/about">P2PU</a> -- <a href="http://info.p2pu.org/people">Our People</a></li>' +
+        '<li>' +
+        '<hr>' +
         '<a href="http://info.p2pu.org">Blog</a></li>' +
         '<li>' +
         '<hr>' +
-        '<a href="http://reports.p2pu.org">Reports</a></li>' +
-        '<li>' +
-        '<hr>' +
-        '<a href="http://info.p2pu.org/research/">Research</a></li>' +
+        '<a href="http://reports.p2pu.org">Reports</a> -- <a href="http://info.p2pu.org/research/">Research</a></li>' +
         '</ul>' +
         '</div>' +
         '</div>' +
@@ -32,7 +31,7 @@
         '<a href="http://badges.p2pu.org">Badges</a></li>' +
         '<li>' +
         '<hr>' +
-        '<a href="">Schools</a></li>' +
+        '<a href="https://p2pu.org/en/#schools">Schools</a></li>' +
         '</ul>' +
         '</div>' +
         '</div>' +
@@ -42,23 +41,26 @@
         '<ul class="unstyled list-unstyled">' +
         '<li>' +
         '<hr>' +
-        '<a href="http://community.p2pu.org">Discussions</a></li>' +
+        '<a href="http://p2pu.org">P2PU.org</a></li>' +
+        '<li>' +
+        '<hr>' +
+        '<a href="http://community.p2pu.org">Community Forum</a></li>' +
         '<li>' +
         '<hr>' +
         '<a href="http://www.facebook.com/P2PUniversity" target="_blank"><i' +
-        '        class="icon-facebook-sign"></i></a>' +
+        'class="icon-facebook-sign"></i></a>' +
         '<a href="http://twitter.com/p2pu" target="_blank"><i class="icon-twitter-sign"></i></a>' +
-        '<a href="http://info.p2pu.org/contact/" target="_blank"><i class="icon-envelope"></i></a>' +
-        '</li>' +
-        '</ul>' +
-        '</div>' +
-        '</div>' +
-        '</div>' +
-        '</div>' +
-            '<div class="p2pu-color-divider-wrap">' +
-                '<div class="p2pu-color-divider"></div>' +
-            '</div>' +
-        '</div>';
+      '<a href="http://info.p2pu.org/contact/" target="_blank"><i class="icon-envelope"></i></a>' +
+      '</li>' +
+      '</ul>' +
+      '</div>' +
+      '</div>' +
+      '</div>' +
+      '</div>' +
+      '<div class="p2pu-color-divider-wrap">' +
+      '<div class="p2pu-color-divider"></div>' +
+      '</div>' +
+      '</div>';
 
     var Slider = function(element, options) {
         this.element =
