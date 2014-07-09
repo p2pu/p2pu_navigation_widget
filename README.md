@@ -12,4 +12,4 @@ List of sites that currently use this:
 * http://badges.p2pu.org
 * ???
 
-For an example of how to use this on a site, see example.html
+For an example of how to use this on a site, see index.html
