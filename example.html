@@ -1,32 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Example page with P2PU topnave</title>
-  <link rel="stylesheet" href="https://p2pu.org/static/css/p2pu-bootstrap.css">
-  <script src="https://p2pu.org/static/js/libs/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 </head>
 <body>
 
-  <nav>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner p2pu-navbar">
-        <div class="container">
-          <a class="brand" href="/en/">P2PU</a>
-          <div class="">
-            <ul class="nav top-menu">
-              <li>
-                <a class="p2pu-tab" href="#">Dropdown link</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <ul class="nav navbar-nav top-menu">
+        <li>
+          <a class="brand p2pu-tab" href="#">P2PU</a>
+        </li>
+        <li><a class="" href="#">Link 1</a></li>
+        <li><a class="" href="#">Link 2</a></li>
+      </ul>
     </div>
   </nav>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="//rawgithub.com/p2pu/p2pu_navigation_widget/master/p2pu_menu_slider.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="//rawgithub.com/p2pu/p2pu_navigation_widget/master/p2pu_menu_slider.js"></script>
   <script>
     $(document).ready(function () {
       $(".p2pu-tab").p2puSlider({
